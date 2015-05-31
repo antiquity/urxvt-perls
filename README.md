@@ -195,3 +195,18 @@ If you can reproduce the problem this way then the problem does not lie with
 the urxvt-font-size script, but either directly with urxvt or some other
 component that may interfere (like for example a window manager). Please
 report the bug to those projects in that case.
+
+
+fork-here
+=========
+
+This extension adds a small handler to fork off a new urxvt window at the your working directory.
+
+To install:
+
+* copy `fork-here' anywhere to your liking
+* if necessary, add that path to `URxvt.perl-lib'
+* add `fork-here' to `URxvt.perl-ext'
+* bind something toi `perl:fork-here:fork-at-cwd'
+
+
